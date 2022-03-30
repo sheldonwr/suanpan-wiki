@@ -1,7 +1,17 @@
 {
-  "name": "root",
+  "name": "suanpan-wiki",
+  "version": "0.0.1",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "docker": "node scripts/docker.js"
+  },
+  "suanpan": {
+    "image_registry": "registry.xuelangyun.com",
+    "image_namespace": "shuzhi",
+    "image_name": "suanpan_wiki",
+    "image_arches": ["amd64"]
   }
 }
