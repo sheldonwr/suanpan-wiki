@@ -1,6 +1,7 @@
 {
   "name": "suanpan-wiki",
   "version": "0.0.1",
+  "description": "算盘学院开发工程",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
